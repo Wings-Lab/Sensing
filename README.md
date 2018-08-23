@@ -28,7 +28,7 @@ Kaa Application to collect the distributed spectrum data
         $ db.logs_<application_token>.find()
 
 ## Contributors
-**Mallesham Dasari,Muhammand Bershgal, Snigdha Kamal, Jitendra Savanpur, Arani Bhattacharya**
+**Mallesham Dasari, Muhammand Bershgal Atique, Snigdha Kamal, Jitendra Savanpur, Arani Bhattacharya**
 
 ## Useful Links
 To manipulate the data types inside the schemas and a list of possible datatypes available-
