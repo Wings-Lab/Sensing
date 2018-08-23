@@ -10,6 +10,9 @@ data1 = []
 
 for i in range(10):
     data1.append(np.loadtxt('desktop/'+str(i)+'.txt'))
+
+for i in data1:
+    print len(i)
 data1 = np.mean(data1, axis=1)
 data1 = data1/5
 
