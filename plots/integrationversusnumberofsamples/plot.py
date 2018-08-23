@@ -19,7 +19,7 @@ data1 = data1/5
 data2 = []
 
 for i in range(10):
-    data2.append(np.loadtxt('odroid/tmp10e'+str(i)))
+    data2.append(np.loadtxt('odroid/'+str(i)+'.txt'))
 
 data2 = np.mean(data2, axis=1)
 data2 = data2/5

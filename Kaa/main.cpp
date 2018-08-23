@@ -42,7 +42,7 @@ static int samplingPeriod = 1; //seconds
 static std::string numberOfBins = "20";
 static std::string numberOfSpectraToAvg = "32";
 rtlsdr_dev_t *dev = NULL;
-std::string cmd_for_power = "./rtl_power_fftw -q -b 8 -f 915.8e6 -e 2m  -g 1";
+std::string cmd_for_power = "./rtl_power_fftw -q -b 8 -f 915.8e6 -e 2m  -g 1 -t 0.000001s";
 
 
 std::string get_mac(){
