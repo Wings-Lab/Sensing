@@ -84,7 +84,7 @@ class top_block(gr.top_block):
 			
 
 import time
-import spur
+#import spur
 from subprocess import call
 import numpy as np
 import matplotlib.pyplot as plt
